@@ -8,7 +8,7 @@
         "jmthon",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/JMTHON-AR/mus",
+    "repository": "https://github.com/bbaoomj/mus",
     "env": {
         "SESSION": {
             "description": "هنا ضع كود البايروكرام",
@@ -38,7 +38,7 @@
             "url": "heroku/python"
         },
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+            "url": "https://github.com/bbaoomj/mus/heroku-buildpack-ffmpeg-latest"
         }
     ],
     "formation": {
