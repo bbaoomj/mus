@@ -143,7 +143,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/6dc1999bb0ff142e2b1d0.jpg",
                     caption=f"""
 **🏷️ العنوان : [{songname}]({link})
 💬 ايدي الدردشة : {chat_id}
@@ -162,7 +162,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/6dc1999bb0ff142e2b1d0.jpg",
                     caption=f"""
 **▶ تم تشغيل الاغنية 
 **🏷️ العنوان : [{songname}]({link})
@@ -173,7 +173,7 @@ async def play(client, m: Message):
 
     else:
         if len(m.command) < 2:
-            await m.reply("يجب عليك الرد على الاغنيه او وضع اسمها مع الامر")
+            await m.reply("يجب عليك الرد على الاغنيه او وضع اسمها مع الامر دايفل ")
         else:
             await m.delete()
             huehue = await m.reply("🔎 جاري البحث الرجاء الانتظار ")
@@ -261,7 +261,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/6dc1999bb0ff142e2b1d0.jpg",
                     caption=f"""
 #⃣ Video Di Antrian Ke {pos}
 **🏷️  العنوان : [{songname}]({url})
@@ -285,7 +285,7 @@ async def vplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                    photo="https://telegra.ph/file/6dc1999bb0ff142e2b1d0.jpg",
                     caption=f"""
 **🏷️  العنوان : [{songname}]({url})
 💬 ايدي المحادثه : {chat_id}
@@ -391,7 +391,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/b0b13433b8595ed385f07.jpg",
+                        photo="https://telegra.ph/file/6dc1999bb0ff142e2b1d0.jpg",
                         caption=f"""
 **▶ ابدأ تشغيل الأغاني من {chat}
 🏷️ العنوان : [{songname}]({link})
